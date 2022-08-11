@@ -1,12 +1,7 @@
-// 결제를 할수있는가?
-interface PayAble {
-    void pay(); // 결제하기
-
-    int calcPay();  // 요금계산하기
-}
-
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("\n@@@버스 테스트@@@\n");
 
         // TODO Auto-generated method stub
         Bus bus1 = new Bus();
@@ -22,6 +17,8 @@ public class Main {
         bus1.addPassengerBus(45);
         bus1.addPassengerBus(5);
         bus1.addOil(-55);
+
+        System.out.println("\n@@@택시 테스트@@@\n");
 
         Texi t1 = new Texi();
         Texi t2 = new Texi();
